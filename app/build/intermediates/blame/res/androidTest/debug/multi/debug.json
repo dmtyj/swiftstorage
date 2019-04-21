@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\as_workspace3\\swiftstorage\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\rules-0.5.aar\\0544d3d396caee60d3c530ba3ee95583\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '27.0.3'
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a','x86_64'
+            universalApk true
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.xiandian.openstack.cloud.swiftstorage"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation project(':openstack-java-jdk')
+    implementation files('libs/jackson-annotations.jar')
+    implementation files('libs/jackson-core.jar')
+    implementation files('libs/jackson-databind.jar')
+    implementation files('libs/libandroid_tensorflow_inference_java.jar')
+    implementation 'com.android.support:appcompat-v7:25.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation  files('libs/camerakit-0.9.13-sources.jar')
+//    compile 'com.flurgle:camerakit:0.9.13'
+//    compile 'com.android.support:appcompat-v7:23.0.0'
+    implementation 'com.android.support:design:25.1.1'
+//    compile 'com.android.support:support-v4:23.0.0'
+    implementation files('libs/okhttp-3.7.0.jar')
+    implementation files('libs/json-lib-2.4-jdk15.jar')
+    implementation files('libs/okio-1.10.0.jar')
+}

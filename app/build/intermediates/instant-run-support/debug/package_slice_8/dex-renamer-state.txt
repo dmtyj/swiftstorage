@@ -1,0 +1,4 @@
+#Thu Feb 08 10:02:23 CST 2018
+base.0=E\:\\as_workspace3\\swiftstorage\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+renamed.0=classes.dex
+file.0=E\:\\as_workspace3\\swiftstorage\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8\\classes.dex

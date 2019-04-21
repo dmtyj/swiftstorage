@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/media/inovate/sdb5/IDEAProjects/swiftstorage/app/src/main/jniLibs"><file name="armeabi-v7a/libtensorflow_inference.so" path="/media/inovate/sdb5/IDEAProjects/swiftstorage/app/src/main/jniLibs/armeabi-v7a/libtensorflow_inference.so"/></source></dataSet><dataSet config="debug"><source path="/media/inovate/sdb5/IDEAProjects/swiftstorage/app/src/debug/jniLibs"/></dataSet></merger>

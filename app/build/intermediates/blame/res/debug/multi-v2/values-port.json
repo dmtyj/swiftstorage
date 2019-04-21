@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/inovate/sdb5/IDEAProjects/swiftstorage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/media/inovate/sdb4/basepath/gradle/gradle-5.1.1/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/41534e58a343c9da709c794ae5804920/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
